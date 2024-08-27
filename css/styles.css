@@ -1,0 +1,27 @@
+body {
+  font-family: "Renogare Soft", sans-serif;
+  background-color: #328999;
+}
+
+header, footer {
+  background-color: #02414D;
+  color: #FFFFFF;
+}
+header .logo, footer .logo {
+  font-family: "Bacalisties", cursive;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  color: #437680;
+  text-decoration: underline;
+}
+
+.transformable {
+  transition: transform 0.3s ease-in-out;
+}
+.transformable:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,51 @@
+// 1. Variables
+$colors: (
+    primary: #02414D,
+    secondary: #BEEF, // O #BEEEEE si quieres 6 dígitos.
+    accent: #437680, // Ajustado a 6 dígitos.
+    light: #12444d,
+    white: #FFFFFF
+);
+
+$font-primary: 'Renogare Soft', sans-serif;
+$font-secondary: 'Calibri', sans-serif;
+$font-eventual: 'Bacalisties', cursive;
+
+// 2. Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 3. Nesting & Styling
+body {
+    font-family: $font-primary;
+    background-color: map-get($colors, light);
+}
+
+header, footer {
+    background-color: map-get($colors, primary);
+    color: map-get($colors, white);
+
+    .logo {
+        font-family: $font-eventual;
+        font-size: 24px;
+    }
+}
+
+.nav-link {
+    &:hover {
+        color: map-get($colors, accent);
+        text-decoration: underline;
+    }
+}
+
+// 4. Transición sencilla
+.transformable {
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
