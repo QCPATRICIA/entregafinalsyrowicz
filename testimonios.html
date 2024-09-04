@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Quiero Contarte</title>
+    <title>Testimonios - Quiero Contarte</title>
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Quiero Contarte crea libros físicos con recuerdos personales, familiares y profesionales.">
-    <meta name="keywords" content="libros personalizados, recuerdos, regalos especiales, historias, vinculos, familia, empresas, olvido">
+    <meta name="description"
+        content="Quiero Contarte crea libros físicos con recuerdos personales, familiares y profesionales.">
+    <meta name="keywords"
+        content="libros personalizados, recuerdos, regalos especiales, historias, vinculos, familia, empresas, olvido">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .contenedor {
+            text-align: center;
+            margin-top: 50px; /* Añade un margen superior para separar el texto */
+            margin-bottom: 50px; /* Añade un margen inferior para separar el texto de las imagenes */
+        }
+    </style>
 </head>
+
 <body>
     <header class="bg-primary text-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
@@ -25,50 +36,32 @@
             </nav>
         </div>
     </header>
-    
-   
+
+
 
     <main class="container mt-4">
         <h1 class="text-center">Bienvenido a Quiero Contarte</h1>
         <h3 class="text-center">Hacemos Libros con Recuerdos</h3>
-        <div>
-            <article class="text-center">Siempre queremos escuchar tus cuentos, experiencias y vivencias 
-            <a href="https://wa.me/59894448216" target="_blank" class="btn btn-success">
-                 WhatsApp 24/7</a>
-            </a>
-            <article class="text-center">y, por supuesto, nos encantaría verte en nuestro local en Montevideo, en Bvar. Lauro.</article>
-            <article class="text-center"> Te esperamos!!!</article>
+        <div class="contenedor">
+          <article center>"El hecho de poder explicar las experiencias propias hace que estos recuerdos no pasen al olvido, que
+              vuelvan a fluir del interior de la persona, del corazón como los griegos y antiguos romanos entendían."
+          </article>
         </div>
-
-        <article class="text-center">También puedes comunicarte con nosotros utilizando el siguiente formulario:</article> 
-        <h1 class="text-center">Contacto</h1>
         <div class="row">
-            <div class="col-12"> <!-- Hace que el formulario ocupe todo el ancho -->
-                <form action="enviar_contacto.php" method="post">
-                    <fieldset class="border p-3 mb-3">
-                        <legend class="w-auto px-2">Información Personal</legend>
-                        <div class="form-group">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                    </fieldset>
-                    <fieldset class="border p-3 mb-3">
-                        <legend class="w-auto px-2">Mensaje</legend>
-                        <div class="form-group">
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
-                        </div>
-                    </fieldset>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                    <button type="reset" class="btn btn-secondary">Restablecer</button>
-                </form>
+            <div class="col-md-4">
+                <img src="./assets/images/testim5.webp" alt="Maestra Lourdes" class="img-fluid transformable">
+                <p class="colorblanco">Lourdes piensa en los niños que conoce.</p>
             </div>
-        </div>
-           
+            <div class="col-md-4">
+                
+                <img src="./assets/images/testim8.webp" alt="Origen del aprendizaje" class="img-fluid transformable">
+                <p class="colorblanco">Interesante reflexión de Paz.</p>
+            </div>
+            <div class="col-md-4">
+                
+                <img src="./assets/images/testim3.webp" alt="Primos Suarez" class="img-fluid transformable">
+                <p class="colorblanco">Primos honrando a sus abuelos.</p>
+            </div>
         </div>
     </main>
 
@@ -88,4 +81,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

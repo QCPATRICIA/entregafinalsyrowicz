@@ -3,6 +3,10 @@ body {
   background-color: #328999;
 }
 
+.colorblanco {
+  color: #FFFFFF;
+}
+
 header, footer {
   background-color: #02414D;
   color: #FFFFFF;
@@ -13,7 +17,7 @@ header .logo, footer .logo {
 }
 
 .nav-link:hover {
-  color: #437680;
+  color: #804350;
   text-decoration: underline;
 }
 
