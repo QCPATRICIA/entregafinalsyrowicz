@@ -1,4 +1,5 @@
 proyectofinal_syrowicz
+
 El trabajo presentado aquí es el Proyecto Final de Patricia Syrowicz del curso de Desarrollo web realizado en Coder House dictado por el profesor Matías Miró en el marco del Programa Talento Tech +45, organizado por Pyxis con el apoyo de INEFOP. 
 
 Es una página web para un emprendimiento que se llama Quiero Contarte donde hacemos Libros con Recuerdos. Trata de un programa de neuropsicología en el que acompañamos personas que quieren contar sus historias para que queden escritas. El producto final es un libro físico para que el narrador pueda releer, revivir, resignificar estas experiencias siempre que así lo quiera y, a su vez, compartirlas si así lo desea. 
