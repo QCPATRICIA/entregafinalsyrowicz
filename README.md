@@ -1,33 +1,7 @@
 proyectofinal_syrowicz
-Este proyecto es parte del Proyecto Final de Patricia Syrowicz en el curso de Desarrollo Web de Coder House, dictado por Matías Miró, dentro del programa Talento Tech +45 organizado por Pyxis con el apoyo de INEFOP.
-Descripción
-Quiero Contarte es una página web para un emprendimiento que crea Libros con Recuerdos. Acompañamos a personas que desean dejar sus memorias plasmadas en un libro físico, permitiendo revivir y compartir sus experiencias para siempre.
-El sitio web ofrece tres modalidades:
-1.	Personalizada: Trabajo codo a codo con los narradores.
-2.	Métodos Ágiles: Acompañamiento a distancia con intervenciones limitadas.
-3.	Plataforma Web con IAG: Gran intimidad y privacidad a través de IA generativa.
-Tecnologías Utilizadas
-•	HTML5
-•	CSS3 + SCSS
-•	Bootstrap
-•	SEO: Meta tags, favicon, etiquetas semánticas, alt en imágenes.
-Estructura de la Web
-La web consta de cinco páginas:
-1.	Inicio: Presenta el valor del proyecto.
-2.	Nosotros: Misión y visión del emprendimiento.
-3.	Propuestas: Detalles de las tres modalidades.
-4.	Contacto: Formas de contacto.
-5.	Testimonios: Historias de clientes.
-También incluye una página de error 404, diseñada de manera amigable para seguir navegando fácilmente.
-Características Técnicas
-•	Responsive: Adaptada para escritorio y dispositivos móviles.
-•	Accesibilidad: Fácil de usar, con un diseño simple para personas mayores.
-•	Paleta de colores: Tonos de azul, proporcionando tranquilidad y confianza.
-Cómo Ejecutar el Proyecto
-1.	Clonar el repositorio.
-2.	Navegar al directorio del proyecto.
-3.	Abrir index.html en un navegador web.
-Enlace al Sitio
-El sitio está online, accesible en un servidor de hosting como Infinity.
-Objetivo
-El sitio web refleja el espíritu de Quiero Contarte, proporcionando una experiencia sencilla para descubrir y contratar los servicios del emprendimiento.
+El trabajo presentado aquí es el Proyecto Final de Patricia Syrowicz del curso de Desarrollo web realizado en Coder House dictado por el profesor Matías Miró en el marco del Programa Talento Tech +45, organizado por Pyxis con el apoyo de INEFOP. Es una página web para un emprendimiento que se llama Quiero Contarte donde hacemos Libros con Recuerdos. Trata de un programa de neuropsicología en el que acompañamos personas que quieren contar sus historias para que queden escritas. El producto final es un libro físico para que el narrador pueda releer, revivir, resignificar estas experiencias siempre que así lo quiera y, a su vez, compartirlas si así lo desea. En busca de tener un producto lo más democrático posible desarrollamos tres modalidades: una Personalizada, en la que trabajamos codo a codo con los narradores; una utilizando Métodos Ágiles, en la que el narrador es acompañado a la distancia, con ciertos estímulos con mucho menos intervención de parte del equipo; y la tercer modalidad es utilizando una plataforma web con IAG. Esta última modalidad se caracteriza por su gran intimidad y privacidad.
+Dadas las características de Quiero Contarte el estilo de la web es muy simple y la paleta de colores elegida ronda en los azules con el objetivo de brindar a quien acceda a la misma tranquilidad y confianza. Teniendo en cuenta que los recuerdos que los narradores pueden querer contar pueden ser tanto de alegría y felicidad como tristes y difíciles, nos preocupamos en colocar imágenes que no sugieran o evoquen momentos específicos ni de felicidad ni de nostalgia.  Asimismo es una web simple y fácil de recorrer ya que muchos de nuestros usuarios son gente mayor y un objetivo importante es que sea muy amigable para todos.
+La web consta de cinco páginas que se recorren fácilmente ya que desde cada página se puede acceder a todas las demás. Tiene una página de Inicio que presenta el valor que se encontrará al acercarse a la propuesta del emprendimiento; una página llamada Nosotros donde se presenta Quiero Contarte desde su misión y visión; otra página llamada Propuestas donde, justamente, se muestran las diferentes propuestas del emprendimiento; una página llamada Contacto en la que se reflejan las distintas maneras que tiene el usuario para contactarse con el emprendimiento y en la quinta página se muestran algunos testimonios de quienes ya han utilizado la propuesta. Por si llegase a ocurrir un error, la web cuenta con una página de mensaje de ERROR 404 en la que, con el mismo tono y estilo que tiene el resto de la web, se explica que ha ocurrido un error. En el encabezado tiene como seguir navegando por la web amigablemente. 
+Como se cuenta en este documento, este proyecto es útil porque da un pantallazo acerca de la propuesta que ofrece Quiero Contarte al público en general a la vez que pone a disposición las diversas maneras de comunicarse para contratar o despejar dudas acerca del mismo de manera simple y amigable.
+El sitio web es puesto online utilizando un servicio de hosting como infinity. Se accede al mismo por un link que lleva al sitio web cargado en dicho servidor. La estructura final de la web respeta los criterios trabajados a lo largo del curso respecto a legibilidad, adaptación al framework, uso de etiquetas y prácticas de SEO, utilizando un formato de archivos HTML con un estilo que refleja los criterios trabajados durante el curso respecto a estructura visual, diseño atractivo y responsive mientras que el estilo final de la web tendrá un formato de archivos CSS + SCSS. 
+
